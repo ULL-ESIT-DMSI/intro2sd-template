@@ -1,718 +1,609 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="https://mmistakes.github.io/intro2sd-template/feed.xml" rel="self" type="application/atom+xml" /><link href="https://mmistakes.github.io/intro2sd-template/" rel="alternate" type="text/html" /><updated>2022-10-04T09:40:34-04:00</updated><id>https://mmistakes.github.io/intro2sd-template/feed.xml</id><title type="html">Introducción al Desarrollo de Sistemas</title><subtitle>A flexible Jekyll theme for your blog or site with a minimalist aesthetic.</subtitle><author><name>Michael Rose</name></author><entry><title type="html">Post: Future Date</title><link href="https://mmistakes.github.io/intro2sd-template/post/post-future-date/" rel="alternate" type="text/html" title="Post: Future Date" /><published>9999-12-31T00:00:00-05:00</published><updated>9999-12-31T00:00:00-05:00</updated><id>https://mmistakes.github.io/intro2sd-template/post/post-future-date</id><content type="html" xml:base="https://mmistakes.github.io/intro2sd-template/post/post-future-date/">&lt;p&gt;This post lives in the future and is dated Fri Dec 31 00:00:00 9999. When building Jekyll with the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--future&lt;/code&gt; flag it should appear.&lt;/p&gt;</content><author><name>Michael Rose</name></author><category term="Post" /><summary type="html">This post lives in the future and is dated Fri Dec 31 00:00:00 9999. When building Jekyll with the --future flag it should appear.</summary></entry><entry><title type="html">Informe</title><link href="https://mmistakes.github.io/intro2sd-template/post%20formats/informe/" rel="alternate" type="text/html" title="Informe" /><published>2022-10-01T00:00:00-04:00</published><updated>2022-10-01T00:00:00-04:00</updated><id>https://mmistakes.github.io/intro2sd-template/post%20formats/informe</id><content type="html" xml:base="https://mmistakes.github.io/intro2sd-template/post%20formats/informe/">&lt;p&gt;Systems development is the process of taking a set of business requirements and, through a series of structured stages, translating these into an operational IT system.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4444/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4444/" rel="alternate" type="text/html" /><updated>2022-10-04T09:41:48-04:00</updated><id>http://localhost:4444/feed.xml</id><title type="html">Introducción al Desarrollo de Sistemas</title><subtitle>A flexible Jekyll theme for your blog or site with a minimalist aesthetic.</subtitle><author><name>Michael Rose</name></author><entry><title type="html">Post: Future Date</title><link href="http://localhost:4444/post/post-future-date/" rel="alternate" type="text/html" title="Post: Future Date" /><published>9999-12-31T00:00:00-05:00</published><updated>9999-12-31T00:00:00-05:00</updated><id>http://localhost:4444/post/post-future-date</id><content type="html" xml:base="http://localhost:4444/post/post-future-date/">This post lives in the future and is dated {{ page.date | date: &quot;%c&quot; }}. When building Jekyll with the `--future` flag it should appear.</content><author><name>Michael Rose</name></author><category term="Post" /><summary type="html">This post lives in the future and is dated Fri Dec 31 00:00:00 9999. When building Jekyll with the --future flag it should appear.</summary></entry><entry><title type="html">Informe</title><link href="http://localhost:4444/post%20formats/informe/" rel="alternate" type="text/html" title="Informe" /><published>2022-10-01T00:00:00-04:00</published><updated>2022-10-01T00:00:00-04:00</updated><id>http://localhost:4444/post%20formats/informe</id><content type="html" xml:base="http://localhost:4444/post%20formats/informe/">Systems development is the process of taking a set of business requirements and, through a series of structured stages, translating these into an operational IT system. 
 
-&lt;p&gt;The stages vary according to the development approach being used – described more fully in Chapter 2, ‘Lifecycle types and their rationales’ – but typically would include the activities shown in Figure 1.1, including: a feasibility study, to see if the project is worthwhile ; requirements engineering to analyse the business need and specify the users’ requirements ; design of the system to meet the users’ needs ; development of the software needed to meet the requirements ; testing of the software ; implementation of the solution.
-Ahmed, Tahir, et al. Developing Information Systems : Practical guidance for IT professionals, edited by James Cadle, BCS Learning &amp;amp; Development Limited, 2014. ProQuest Ebook Central, http://ebookcentral.proquest.com/lib/bull-ebooks/detail.action?docID=1713962.&lt;/p&gt;</content><author><name>Michael Rose</name></author><category term="Post Formats" /><category term="Post Formats" /><category term="readability" /><category term="standard" /><summary type="html">Systems development is the process of taking a set of business requirements and, through a series of structured stages, translating these into an operational IT system. The stages vary according to the development approach being used – described more fully in Chapter 2, ‘Lifecycle types and their rationales’ – but typically would include the activities shown in Figure 1.1, including: a feasibility study, to see if the project is worthwhile ; requirements engineering to analyse the business need and specify the users’ requirements ; design of the system to meet the users’ needs ; development of the software needed to meet the requirements ; testing of the software ; implementation of the solution. Ahmed, Tahir, et al. Developing Information Systems : Practical guidance for IT professionals, edited by James Cadle, BCS Learning &amp;amp; Development Limited, 2014. ProQuest Ebook Central, http://ebookcentral.proquest.com/lib/bull-ebooks/detail.action?docID=1713962.</summary></entry><entry><title type="html">Exclude Post from Search Index</title><link href="https://mmistakes.github.io/intro2sd-template/jekyll/post-exclude-search/" rel="alternate" type="text/html" title="Exclude Post from Search Index" /><published>2017-11-28T00:00:00-05:00</published><updated>2018-02-19T08:06:00-05:00</updated><id>https://mmistakes.github.io/intro2sd-template/jekyll/post-exclude-search</id><content type="html" xml:base="https://mmistakes.github.io/intro2sd-template/jekyll/post-exclude-search/">&lt;p&gt;This post should not appear in the search index because it has the following YAML Front Matter:&lt;/p&gt;
+The stages vary according to the development approach being used – described more fully in Chapter 2, ‘Lifecycle types and their rationales’ – but typically would include the activities shown in Figure 1.1, including: a feasibility study, to see if the project is worthwhile ; requirements engineering to analyse the business need and specify the users’ requirements ; design of the system to meet the users’ needs ; development of the software needed to meet the requirements ; testing of the software ; implementation of the solution.
+Ahmed, Tahir, et al. Developing Information Systems : Practical guidance for IT professionals, edited by James Cadle, BCS Learning &amp; Development Limited, 2014. ProQuest Ebook Central, http://ebookcentral.proquest.com/lib/bull-ebooks/detail.action?docID=1713962.</content><author><name>Michael Rose</name></author><category term="Post Formats" /><category term="Post Formats" /><category term="readability" /><category term="standard" /><summary type="html">Systems development is the process of taking a set of business requirements and, through a series of structured stages, translating these into an operational IT system. The stages vary according to the development approach being used – described more fully in Chapter 2, ‘Lifecycle types and their rationales’ – but typically would include the activities shown in Figure 1.1, including: a feasibility study, to see if the project is worthwhile ; requirements engineering to analyse the business need and specify the users’ requirements ; design of the system to meet the users’ needs ; development of the software needed to meet the requirements ; testing of the software ; implementation of the solution. Ahmed, Tahir, et al. Developing Information Systems : Practical guidance for IT professionals, edited by James Cadle, BCS Learning &amp;amp; Development Limited, 2014. ProQuest Ebook Central, http://ebookcentral.proquest.com/lib/bull-ebooks/detail.action?docID=1713962.</summary></entry><entry><title type="html">Exclude Post from Search Index</title><link href="http://localhost:4444/jekyll/post-exclude-search/" rel="alternate" type="text/html" title="Exclude Post from Search Index" /><published>2017-11-28T00:00:00-05:00</published><updated>2018-02-19T08:06:00-05:00</updated><id>http://localhost:4444/jekyll/post-exclude-search</id><content type="html" xml:base="http://localhost:4444/jekyll/post-exclude-search/">This post should not appear in the search index because it has the following YAML Front Matter:
 
-&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;search&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;false&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+```yaml
+search: false
+```
 
-&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;Note:&lt;/strong&gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;search: false&lt;/code&gt; only works to exclude posts when using Lunr as a search provider.&lt;/p&gt;
+**Note:** `search: false` only works to exclude posts when using Lunr as a search provider.
+{: .notice--info}
 
-&lt;p&gt;To exclude files when using Algolia as a search provider add an array to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;algolia.files_to_exclude&lt;/code&gt; in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;. For more configuration options be sure to check their &lt;a href=&quot;https://community.algolia.com/jekyll-algolia/options.html&quot;&gt;full documentation&lt;/a&gt;.&lt;/p&gt;
+To exclude files when using Algolia as a search provider add an array to `algolia.files_to_exclude` in your `_config.yml`. For more configuration options be sure to check their [full documentation](https://community.algolia.com/jekyll-algolia/options.html).
 
-&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;algolia&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-  &lt;span class=&quot;c1&quot;&gt;# Exclude more files from indexing&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;files_to_exclude&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;index.html&lt;/span&gt;
-    &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;index.md&lt;/span&gt;
-    &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;excluded-file.html&lt;/span&gt;
-    &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;_posts/2017-11-28-post-exclude-search.md&lt;/span&gt;
-    &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;subdirectory/*.html&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Michael Rose</name></author><category term="Jekyll" /><summary type="html">This post should not appear in the search index because it has the following YAML Front Matter:</summary></entry><entry><title type="html">Layout: Header Video</title><link href="https://mmistakes.github.io/intro2sd-template/layout/uncategorized/layout-header-video/" rel="alternate" type="text/html" title="Layout: Header Video" /><published>2017-01-23T00:00:00-05:00</published><updated>2017-01-23T00:00:00-05:00</updated><id>https://mmistakes.github.io/intro2sd-template/layout/uncategorized/layout-header-video</id><content type="html" xml:base="https://mmistakes.github.io/intro2sd-template/layout/uncategorized/layout-header-video/">&lt;p&gt;This post should display a &lt;strong&gt;header with a responsive video&lt;/strong&gt;, if the theme supports it.&lt;/p&gt;
+```yaml
+algolia:
+  # Exclude more files from indexing
+  files_to_exclude:
+    - index.html
+    - index.md
+    - excluded-file.html
+    - _posts/2017-11-28-post-exclude-search.md
+    - subdirectory/*.html
+```</content><author><name>Michael Rose</name></author><category term="Jekyll" /><summary type="html">This post should not appear in the search index because it has the following YAML Front Matter:</summary></entry><entry><title type="html">Layout: Header Video</title><link href="http://localhost:4444/layout/uncategorized/layout-header-video/" rel="alternate" type="text/html" title="Layout: Header Video" /><published>2017-01-23T00:00:00-05:00</published><updated>2017-01-23T00:00:00-05:00</updated><id>http://localhost:4444/layout/uncategorized/layout-header-video</id><content type="html" xml:base="http://localhost:4444/layout/uncategorized/layout-header-video/">This post should display a **header with a responsive video**, if the theme supports it.
 
-&lt;h2 id=&quot;settings&quot;&gt;Settings&lt;/h2&gt;
+## Settings
 
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Parameter&lt;/th&gt;
-      &lt;th&gt;Required&lt;/th&gt;
-      &lt;th&gt;Description&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;id&lt;/code&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;Required&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;ID of the video&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;provider&lt;/code&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;Required&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;Hosting provider of the video, either &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;youtube&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;vimeo&lt;/code&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+| Parameter  | Required     | Description |
+|----------  |---------     | ----------- |
+| `id`       | **Required** | ID of the video |
+| `provider` | **Required** | Hosting provider of the video, either `youtube` or `vimeo` |
 
-&lt;h3 id=&quot;youtube&quot;&gt;YouTube&lt;/h3&gt;
+### YouTube
 
-&lt;p&gt;To embed the following YouTube video at url &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;https://www.youtube.com/watch?v=-PVofD2A9t8&lt;/code&gt; (long version) or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;https://youtu.be/-PVofD2A9t8&lt;/code&gt; (short version) into a post or page’s main content you’d use:&lt;/p&gt;
+To embed the following YouTube video at url `https://www.youtube.com/watch?v=-PVofD2A9t8` (long version) or `https://youtu.be/-PVofD2A9t8` (short version) into a post or page&apos;s main content you&apos;d use: 
 
-&lt;div class=&quot;language-liquid highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;include&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;video&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;-PVofD2A9t8&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;provider&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;youtube&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+```liquid
+{% raw %}{% include video id=&quot;-PVofD2A9t8&quot; provider=&quot;youtube&quot; %}{% endraw %}
+```
 
-&lt;!-- Courtesy of embedresponsively.com //--&gt;
+{% include video id=&quot;-PVofD2A9t8&quot; provider=&quot;youtube&quot; %}
 
-&lt;div class=&quot;responsive-video-container&quot;&gt;
-    &lt;iframe src=&quot;https://www.youtube-nocookie.com/embed/-PVofD2A9t8&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-  &lt;/div&gt;
+To embed it as a video header you&apos;d use the following YAML Front Matter
 
-&lt;p&gt;To embed it as a video header you’d use the following YAML Front Matter&lt;/p&gt;
+```yaml
+header:
+  video:
+    id: -PVofD2A9t8
+    provider: youtube
+```
 
-&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;header&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;video&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;-PVofD2A9t8&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;provider&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;youtube&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+### Vimeo
 
-&lt;h3 id=&quot;vimeo&quot;&gt;Vimeo&lt;/h3&gt;
+To embed the following Vimeo video at url `https://vimeo.com/212731897` into a post or page&apos;s main content you&apos;d use: 
 
-&lt;p&gt;To embed the following Vimeo video at url &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;https://vimeo.com/212731897&lt;/code&gt; into a post or page’s main content you’d use:&lt;/p&gt;
+```liquid
+{% raw %}{% include video id=&quot;212731897&quot; provider=&quot;vimeo&quot; %}{% endraw %}
+```
 
-&lt;div class=&quot;language-liquid highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;include&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;video&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;212731897&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;provider&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;vimeo&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+{% include video id=&quot;212731897&quot; provider=&quot;vimeo&quot; %}
 
-&lt;!-- Courtesy of embedresponsively.com //--&gt;
+To embed it as a video header you&apos;d use the following YAML Front Matter
 
-&lt;div class=&quot;responsive-video-container&quot;&gt;
-    &lt;iframe src=&quot;https://player.vimeo.com/video/212731897?dnt=true&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-  &lt;/div&gt;
+```yaml
+header:
+  video:
+    id: 212731897
+    provider: vimeo
+```</content><author><name>Michael Rose</name></author><category term="Layout" /><category term="Uncategorized" /><category term="video" /><category term="layout" /><summary type="html">This post should display a header with a responsive video, if the theme supports it.</summary></entry><entry><title type="html">Gemified Theme – Beta Release</title><link href="http://localhost:4444/jekyll/gemified-theme-beta/" rel="alternate" type="text/html" title="Gemified Theme – Beta Release" /><published>2016-10-06T00:00:00-04:00</published><updated>2018-03-20T16:01:04-04:00</updated><id>http://localhost:4444/jekyll/gemified-theme-beta</id><content type="html" xml:base="http://localhost:4444/jekyll/gemified-theme-beta/">Hot on the heels of Jekyll v3.3.0 is a beta release of Minimal Mistakes... as a gemified theme.
 
-&lt;p&gt;To embed it as a video header you’d use the following YAML Front Matter&lt;/p&gt;
+[`minimal-mistakes-jekyll`](https://rubygems.org/gems/minimal-mistakes-jekyll) can only be used with Jekyll proper. If you&apos;re hosting on GitHub Pages or using that gem the theme won&apos;t work. 3rd party themes haven&apos;t been white-listed so it&apos;s a no go for now.
 
-&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;header&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;video&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;212731897&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;provider&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;vimeo&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Michael Rose</name></author><category term="Layout" /><category term="Uncategorized" /><category term="video" /><category term="layout" /><summary type="html">This post should display a header with a responsive video, if the theme supports it.</summary></entry><entry><title type="html">Gemified Theme – Beta Release</title><link href="https://mmistakes.github.io/intro2sd-template/jekyll/gemified-theme-beta/" rel="alternate" type="text/html" title="Gemified Theme – Beta Release" /><published>2016-10-06T00:00:00-04:00</published><updated>2018-03-20T16:01:04-04:00</updated><id>https://mmistakes.github.io/intro2sd-template/jekyll/gemified-theme-beta</id><content type="html" xml:base="https://mmistakes.github.io/intro2sd-template/jekyll/gemified-theme-beta/">&lt;p&gt;Hot on the heels of Jekyll v3.3.0 is a beta release of Minimal Mistakes… as a gemified theme.&lt;/p&gt;
+Fine with all that? Great. Let&apos;s continue.
 
-&lt;p&gt;&lt;a href=&quot;https://rubygems.org/gems/minimal-mistakes-jekyll&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;minimal-mistakes-jekyll&lt;/code&gt;&lt;/a&gt; can only be used with Jekyll proper. If you’re hosting on GitHub Pages or using that gem the theme won’t work. 3rd party themes haven’t been white-listed so it’s a no go for now.&lt;/p&gt;
+If you&apos;re migrating a site already using Minimal Mistakes and haven&apos;t customized any of the `_includes`, `_layouts`, `_sass` partials, or `assets` this should be quick and painless.
 
-&lt;p&gt;Fine with all that? Great. Let’s continue.&lt;/p&gt;
+## Step 1: Remove Theme Files 
 
-&lt;p&gt;If you’re migrating a site already using Minimal Mistakes and haven’t customized any of the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_includes&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_layouts&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_sass&lt;/code&gt; partials, or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;assets&lt;/code&gt; this should be quick and painless.&lt;/p&gt;
+Remove `_includes`, `_layouts`, `_sass`, `assets` folders and files within. You won&apos;t need these anymore as they&apos;re bundled in the theme.
 
-&lt;h2 id=&quot;step-1-remove-theme-files&quot;&gt;Step 1: Remove Theme Files&lt;/h2&gt;
+If you customized any of these then leave them alone and only remove the untouched ones. If setup correctly your modified versions should act as [overrides](http://jekyllrb.com/docs/themes/#overriding-theme-defaults) to the versions bundled with the theme.
 
-&lt;p&gt;Remove &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_includes&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_layouts&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_sass&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;assets&lt;/code&gt; folders and files within. You won’t need these anymore as they’re bundled in the theme.&lt;/p&gt;
+## Step 2: Update `Gemfile`
 
-&lt;p&gt;If you customized any of these then leave them alone and only remove the untouched ones. If setup correctly your modified versions should act as &lt;a href=&quot;http://jekyllrb.com/docs/themes/#overriding-theme-defaults&quot;&gt;overrides&lt;/a&gt; to the versions bundled with the theme.&lt;/p&gt;
+Replace `gem &quot;github-pages` or `gem &quot;jekyll&quot;` with `gem &quot;jekyll&quot;, &quot;~&gt; 3.3.0&quot;`. You&apos;ll need the latest version of Jekyll[^update-jekyll] for Minimal Mistakes to work and load all of the /assets/ properly.
 
-&lt;h2 id=&quot;step-2-update-gemfile&quot;&gt;Step 2: Update &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Gemfile&lt;/code&gt;&lt;/h2&gt;
+[^update-jekyll]: You could also run `bundle update jekyll` to update Jekyll.
 
-&lt;p&gt;Replace &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gem &quot;github-pages&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gem &quot;jekyll&quot;&lt;/code&gt; with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gem &quot;jekyll&quot;, &quot;~&amp;gt; 3.3.0&quot;&lt;/code&gt;. You’ll need the latest version of Jekyll&lt;sup id=&quot;fnref:update-jekyll&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:update-jekyll&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; for Minimal Mistakes to work and load all of the /assets/ properly.&lt;/p&gt;
+Add the Minimal Mistakes theme gem: 
 
-&lt;p&gt;Add the Minimal Mistakes theme gem:&lt;/p&gt;
+```ruby
+gem &quot;minimal-mistakes-jekyll&quot;
+```
 
-&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;minimal-mistakes-jekyll&quot;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+When finished your `Gemfile` should look something like this:
 
-&lt;p&gt;When finished your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Gemfile&lt;/code&gt; should look something like this:&lt;/p&gt;
+```ruby
+source &quot;https://rubygems.org&quot;
 
-&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;source&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;https://rubygems.org&quot;&lt;/span&gt;
+gem &quot;jekyll&quot;, &quot;~&gt; 3.3.0&quot;
+gem &quot;minimal-mistakes-jekyll&quot;
+```
 
-&lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;jekyll&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;~&amp;gt; 3.3.0&quot;&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;minimal-mistakes-jekyll&quot;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+## Step 3: Run Bundler
 
-&lt;h2 id=&quot;step-3-run-bundler&quot;&gt;Step 3: Run Bundler&lt;/h2&gt;
+Run `bundle install` (or `bundle update` if you&apos;re updating an existing repo) to install/update Jekyll and the theme.
 
-&lt;p&gt;Run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bundle install&lt;/code&gt; (or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bundle update&lt;/code&gt; if you’re updating an existing repo) to install/update Jekyll and the theme.&lt;/p&gt;
+## Step 4: Install the Theme
 
-&lt;h2 id=&quot;step-4-install-the-theme&quot;&gt;Step 4: Install the Theme&lt;/h2&gt;
+Add `theme: &quot;minimal-mistakes-jekyll&quot;` to your `_config.yml` file.
 
-&lt;p&gt;Add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;theme: &quot;minimal-mistakes-jekyll&quot;&lt;/code&gt; to your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; file.&lt;/p&gt;
+If you&apos;re migrating from an existing Minimal Mistakes site you shouldn&apos;t have to change anything else after this. If it&apos;s a new site consult then docs to [properly config]({{ &quot;/docs/configuration/&quot; | relative_url }}).
 
-&lt;p&gt;If you’re migrating from an existing Minimal Mistakes site you shouldn’t have to change anything else after this. If it’s a new site consult then docs to &lt;a href=&quot;/intro2sd-template/docs/configuration/&quot;&gt;properly config&lt;/a&gt;.&lt;/p&gt;
+**Please Note:** Paths for image headers, overlays, teasers, [galleries]({{ &quot;/docs/helpers/#gallery&quot; | relative_url }}), and [feature rows]({{ &quot;/docs/helpers/#feature-row&quot; | relative_url }}) have changed and now require a full path. Instead of just `image: filename.jpg` you&apos;ll need to use the full path eg: `image: assets/images/filename.jpg`. The preferred location is now `assets/images` but can be placed elsewhere or external hosted. This all applies for image references in `_config.yml` and `author.yml` as well.
+{: .notice--danger}
 
-&lt;p class=&quot;notice--danger&quot;&gt;&lt;strong&gt;Please Note:&lt;/strong&gt; Paths for image headers, overlays, teasers, &lt;a href=&quot;/intro2sd-template/docs/helpers/#gallery&quot;&gt;galleries&lt;/a&gt;, and &lt;a href=&quot;/intro2sd-template/docs/helpers/#feature-row&quot;&gt;feature rows&lt;/a&gt; have changed and now require a full path. Instead of just &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;image: filename.jpg&lt;/code&gt; you’ll need to use the full path eg: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;image: assets/images/filename.jpg&lt;/code&gt;. The preferred location is now &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;assets/images&lt;/code&gt; but can be placed elsewhere or external hosted. This all applies for image references in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;author.yml&lt;/code&gt; as well.&lt;/p&gt;
+## Step 5: `jekyll new` Tweaks
 
-&lt;h2 id=&quot;step-5-jekyll-new-tweaks&quot;&gt;Step 5: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll new&lt;/code&gt; Tweaks&lt;/h2&gt;
+If this is a new site be sure to add the following files to `_data/` and customize as you see fit. There is currently no way of bundling them in with the theme, so be sure to consult the docs on how to properly use both.
 
-&lt;p&gt;If this is a new site be sure to add the following files to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_data/&lt;/code&gt; and customize as you see fit. There is currently no way of bundling them in with the theme, so be sure to consult the docs on how to properly use both.&lt;/p&gt;
+- [`_data/ui-text.yml`](https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml) - UI text [documentation]({{ &quot;/docs/ui-text/&quot; | relative_url }})
+- [`_data/navigation.yml`](https://github.com/mmistakes/minimal-mistakes/blob/master/_data/navigation.yml) - navigation [documentation]({{ &quot;/docs/navigation/&quot; | relative_url }})
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_data/ui-text.yml&lt;/code&gt;&lt;/a&gt; - UI text &lt;a href=&quot;/intro2sd-template/docs/ui-text/&quot;&gt;documentation&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/mmistakes/minimal-mistakes/blob/master/_data/navigation.yml&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_data/navigation.yml&lt;/code&gt;&lt;/a&gt; - navigation &lt;a href=&quot;/intro2sd-template/docs/navigation/&quot;&gt;documentation&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+You&apos;ll also need to: 
 
-&lt;p&gt;You’ll also need to:&lt;/p&gt;
+- Replace `&lt;site root&gt;/index.html` with a modified [Minimal Mistakes `index.html`](https://github.com/mmistakes/minimal-mistakes/blob/master/index.html).
+- Change `layout: post` in `_posts/0000-00-00-welcome-to-jekyll.markdown` to `layout: single`.
+- Remove `about.md`, or at the very least change `layout: page` to `layout: single` and remove references to `icon-github.html` (or [copy to your `_includes`](https://github.com/jekyll/minima/tree/master/_includes) if using).
 
-&lt;ul&gt;
-  &lt;li&gt;Replace &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;site root&amp;gt;/index.html&lt;/code&gt; with a modified &lt;a href=&quot;https://github.com/mmistakes/minimal-mistakes/blob/master/index.html&quot;&gt;Minimal Mistakes &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;index.html&lt;/code&gt;&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;Change &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;layout: post&lt;/code&gt; in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts/0000-00-00-welcome-to-jekyll.markdown&lt;/code&gt; to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;layout: single&lt;/code&gt;.&lt;/li&gt;
-  &lt;li&gt;Remove &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;about.md&lt;/code&gt;, or at the very least change &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;layout: page&lt;/code&gt; to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;layout: single&lt;/code&gt; and remove references to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;icon-github.html&lt;/code&gt; (or &lt;a href=&quot;https://github.com/jekyll/minima/tree/master/_includes&quot;&gt;copy to your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_includes&lt;/code&gt;&lt;/a&gt; if using).&lt;/li&gt;
-&lt;/ul&gt;
+---
 
-&lt;hr /&gt;
+That&apos;s it! If all goes well running `bundle exec jekyll serve` should spin-up your site. If you encounter any bumps please file an issue on GitHub and make sure to indicate you&apos;re testing the pre-release Ruby gem version.
 
-&lt;p&gt;That’s it! If all goes well running &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bundle exec jekyll serve&lt;/code&gt; should spin-up your site. If you encounter any bumps please file an issue on GitHub and make sure to indicate you’re testing the pre-release Ruby gem version.&lt;/p&gt;
+[File an issue](https://github.com/mmistakes/minimal-mistakes/issues/new){: .btn .btn--info .btn--large}
 
-&lt;p&gt;&lt;a href=&quot;https://github.com/mmistakes/minimal-mistakes/issues/new&quot; class=&quot;btn btn--info btn--large&quot;&gt;File an issue&lt;/a&gt;&lt;/p&gt;
+Thanks!</content><author><name>Michael Rose</name></author><category term="Jekyll" /><category term="update" /><summary type="html">Hot on the heels of Jekyll v3.3.0 is a beta release of Minimal Mistakes… as a gemified theme.</summary></entry><entry><title type="html">Gemified Theme – Alpha Release</title><link href="http://localhost:4444/jekyll/gemified-theme-alpha/" rel="alternate" type="text/html" title="Gemified Theme – Alpha Release" /><published>2016-09-21T00:00:00-04:00</published><updated>2018-03-20T16:00:58-04:00</updated><id>http://localhost:4444/jekyll/gemified-theme-alpha</id><content type="html" xml:base="http://localhost:4444/jekyll/gemified-theme-alpha/">Jekyll [themes distributed as Ruby gems](http://jekyllrb.com/docs/themes/) are finally here to make installing and upgrading much easier. Gone are the days of forking a repo just to &quot;install it&quot;. Or dealing with merge conflicts when pulling in upstream commits to &quot;upgrade it&quot;.
 
-&lt;p&gt;Thanks!&lt;/p&gt;
-&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:update-jekyll&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;You could also run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bundle update jekyll&lt;/code&gt; to update Jekyll. &lt;a href=&quot;#fnref:update-jekyll&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;</content><author><name>Michael Rose</name></author><category term="Jekyll" /><category term="update" /><summary type="html">Hot on the heels of Jekyll v3.3.0 is a beta release of Minimal Mistakes… as a gemified theme.</summary></entry><entry><title type="html">Gemified Theme – Alpha Release</title><link href="https://mmistakes.github.io/intro2sd-template/jekyll/gemified-theme-alpha/" rel="alternate" type="text/html" title="Gemified Theme – Alpha Release" /><published>2016-09-21T00:00:00-04:00</published><updated>2018-03-20T16:00:58-04:00</updated><id>https://mmistakes.github.io/intro2sd-template/jekyll/gemified-theme-alpha</id><content type="html" xml:base="https://mmistakes.github.io/intro2sd-template/jekyll/gemified-theme-alpha/">&lt;p&gt;Jekyll &lt;a href=&quot;http://jekyllrb.com/docs/themes/&quot;&gt;themes distributed as Ruby gems&lt;/a&gt; are finally here to make installing and upgrading much easier. Gone are the days of forking a repo just to “install it”. Or dealing with merge conflicts when pulling in upstream commits to “upgrade it”.&lt;/p&gt;
+If you&apos;re interested in testing out Minimal Mistakes as a gemified theme read on. There are a few caveats though:
 
-&lt;p&gt;If you’re interested in testing out Minimal Mistakes as a gemified theme read on. There are a few caveats though:&lt;/p&gt;
+1. Support for a theme `assets` folder was recently [added to Jekyll core](https://github.com/jekyll/jekyll/pull/5364), but has yet to be released or rolled into the `github-pages` gem. Meaning you can&apos;t use Minimal Mistakes as a Ruby gem there just yet... locally served or self-hosted installs should be fine if you don&apos;t mind using a pre-release version of Jekyll. 
+2. Windows users can&apos;t currently use themes packaged as gems due to a [bug with file paths](https://github.com/jekyll/jekyll/issues/5192) in Jekyll core. This is being worked on so hopefully a [fix is on the way](https://github.com/jekyll/jekyll/pull/5256) soon.
 
-&lt;ol&gt;
-  &lt;li&gt;Support for a theme &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;assets&lt;/code&gt; folder was recently &lt;a href=&quot;https://github.com/jekyll/jekyll/pull/5364&quot;&gt;added to Jekyll core&lt;/a&gt;, but has yet to be released or rolled into the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;github-pages&lt;/code&gt; gem. Meaning you can’t use Minimal Mistakes as a Ruby gem there just yet… locally served or self-hosted installs should be fine if you don’t mind using a pre-release version of Jekyll.&lt;/li&gt;
-  &lt;li&gt;Windows users can’t currently use themes packaged as gems due to a &lt;a href=&quot;https://github.com/jekyll/jekyll/issues/5192&quot;&gt;bug with file paths&lt;/a&gt; in Jekyll core. This is being worked on so hopefully a &lt;a href=&quot;https://github.com/jekyll/jekyll/pull/5256&quot;&gt;fix is on the way&lt;/a&gt; soon.&lt;/li&gt;
-&lt;/ol&gt;
+Fine with all that? Great. Let&apos;s continue.
 
-&lt;p&gt;Fine with all that? Great. Let’s continue.&lt;/p&gt;
+If you&apos;re migrating a site already using Minimal Mistakes and haven&apos;t customized any of the `_includes`, `_layouts`, `_sass` partials, or `assets` this should be quick and painless.
 
-&lt;p&gt;If you’re migrating a site already using Minimal Mistakes and haven’t customized any of the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_includes&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_layouts&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_sass&lt;/code&gt; partials, or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;assets&lt;/code&gt; this should be quick and painless.&lt;/p&gt;
+## Step 1: Remove Theme Files 
 
-&lt;h2 id=&quot;step-1-remove-theme-files&quot;&gt;Step 1: Remove Theme Files&lt;/h2&gt;
+Remove `_includes`, `_layouts`, `_sass`, `assets` folders and files within. You won&apos;t need these anymore as they&apos;re bundled in the theme.
 
-&lt;p&gt;Remove &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_includes&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_layouts&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_sass&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;assets&lt;/code&gt; folders and files within. You won’t need these anymore as they’re bundled in the theme.&lt;/p&gt;
+If you customized any of these then leave them alone and only remove the untouched ones. If setup correctly your modified versions should act as [overrides](http://jekyllrb.com/docs/themes/#overriding-theme-defaults) to the versions bundled with the theme.
 
-&lt;p&gt;If you customized any of these then leave them alone and only remove the untouched ones. If setup correctly your modified versions should act as &lt;a href=&quot;http://jekyllrb.com/docs/themes/#overriding-theme-defaults&quot;&gt;overrides&lt;/a&gt; to the versions bundled with the theme.&lt;/p&gt;
+## Step 2: Update `Gemfile`
 
-&lt;h2 id=&quot;step-2-update-gemfile&quot;&gt;Step 2: Update &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Gemfile&lt;/code&gt;&lt;/h2&gt;
+In order to test you&apos;ll need to install pre-release gems of Jekyll and Minimal Mistakes.
 
-&lt;p&gt;In order to test you’ll need to install pre-release gems of Jekyll and Minimal Mistakes.&lt;/p&gt;
+Start by replacing `gem &quot;github-pages&quot;` or `gem &quot;jekyll&quot;` with the following:
 
-&lt;p&gt;Start by replacing &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gem &quot;github-pages&quot;&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gem &quot;jekyll&quot;&lt;/code&gt; with the following:&lt;/p&gt;
+```ruby
+gem &quot;jekyll&quot;, :git =&gt; &quot;https://github.com/jekyll/jekyll.git&quot;
+```
 
-&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;jekyll&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:git&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;https://github.com/jekyll/jekyll.git&quot;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+Then add the pre-release Minimal Mistakes theme gem: 
 
-&lt;p&gt;Then add the pre-release Minimal Mistakes theme gem:&lt;/p&gt;
+```ruby
+gem &quot;minimal-mistakes-jekyll&quot;, :git =&gt; &quot;https://github.com/mmistakes/minimal-mistakes.git&quot;, :branch =&gt; &quot;feature/theme-gem&quot;`
+```
 
-&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;minimal-mistakes-jekyll&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:git&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;https://github.com/mmistakes/minimal-mistakes.git&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:branch&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;feature/theme-gem&quot;&lt;/span&gt;&lt;span class=&quot;sb&quot;&gt;`
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+When finished your `Gemfile` should look something like this:
 
-&lt;p&gt;When finished your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Gemfile&lt;/code&gt; should look something like this:&lt;/p&gt;
+```ruby
+source &quot;https://rubygems.org&quot;
 
-&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;source&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;https://rubygems.org&quot;&lt;/span&gt;
+gem &quot;jekyll&quot;, :git =&gt; &quot;https://github.com/jekyll/jekyll.git&quot;
+gem &quot;minimal-mistakes-jekyll&quot;, :git =&gt; &quot;https://github.com/mmistakes/minimal-mistakes.git&quot;, :branch =&gt; &quot;feature/theme-gem&quot;
 
-&lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;jekyll&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:git&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;https://github.com/jekyll/jekyll.git&quot;&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;minimal-mistakes-jekyll&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:git&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;https://github.com/mmistakes/minimal-mistakes.git&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:branch&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;feature/theme-gem&quot;&lt;/span&gt;
+group :jekyll_plugins do
+  # gem &quot;jekyll-archives&quot;
+  gem &quot;jekyll-paginate&quot;
+  gem &quot;jekyll-sitemap&quot;
+  gem &quot;jekyll-gist&quot;
+  gem &quot;jekyll-feed&quot;
+end
+```
 
-&lt;span class=&quot;n&quot;&gt;group&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:jekyll_plugins&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt;
-  &lt;span class=&quot;c1&quot;&gt;# gem &quot;jekyll-archives&quot;&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;jekyll-paginate&quot;&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;jekyll-sitemap&quot;&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;jekyll-gist&quot;&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;jekyll-feed&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+## Step 3: Run Bundler
 
-&lt;h2 id=&quot;step-3-run-bundler&quot;&gt;Step 3: Run Bundler&lt;/h2&gt;
+Run `bundle install` (or `bundle update` if you&apos;re updating an existing repo) to install the pre-release gems.
 
-&lt;p&gt;Run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bundle install&lt;/code&gt; (or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bundle update&lt;/code&gt; if you’re updating an existing repo) to install the pre-release gems.&lt;/p&gt;
+## Step 4: Install the Theme
 
-&lt;h2 id=&quot;step-4-install-the-theme&quot;&gt;Step 4: Install the Theme&lt;/h2&gt;
+Add `theme: &quot;minimal-mistakes-jekyll&quot;` to your `_config.yml` file.
 
-&lt;p&gt;Add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;theme: &quot;minimal-mistakes-jekyll&quot;&lt;/code&gt; to your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; file.&lt;/p&gt;
+If you&apos;re migrating from an existing Minimal Mistakes site you shouldn&apos;t have to change anything else after this. If it&apos;s a new site consult then docs to [properly config]({{ &quot;/docs/configuration/&quot; | relative_url }}).
 
-&lt;p&gt;If you’re migrating from an existing Minimal Mistakes site you shouldn’t have to change anything else after this. If it’s a new site consult then docs to &lt;a href=&quot;/intro2sd-template/docs/configuration/&quot;&gt;properly config&lt;/a&gt;.&lt;/p&gt;
+**Please Note:** Paths for image headers, overlays, teasers, [galleries]({{ &quot;/docs/helpers/#gallery&quot; | relative_url }}), and [feature rows]({{ &quot;/docs/helpers/#feature-row&quot; | relative_url }}) have changed and now require a full path. Instead of just `image: filename.jpg` you&apos;ll need to use the full path eg: `image: assets/images/filename.jpg`. The preferred location is now `assets/images` but can be placed elsewhere or external hosted. This applies for image references in `_config.yml` and `author.yml`.
+{: .notice--danger}
 
-&lt;p class=&quot;notice--danger&quot;&gt;&lt;strong&gt;Please Note:&lt;/strong&gt; Paths for image headers, overlays, teasers, &lt;a href=&quot;/intro2sd-template/docs/helpers/#gallery&quot;&gt;galleries&lt;/a&gt;, and &lt;a href=&quot;/intro2sd-template/docs/helpers/#feature-row&quot;&gt;feature rows&lt;/a&gt; have changed and now require a full path. Instead of just &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;image: filename.jpg&lt;/code&gt; you’ll need to use the full path eg: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;image: assets/images/filename.jpg&lt;/code&gt;. The preferred location is now &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;assets/images&lt;/code&gt; but can be placed elsewhere or external hosted. This applies for image references in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;author.yml&lt;/code&gt;.&lt;/p&gt;
+## Step 5: `jekyll new` Tweaks
 
-&lt;h2 id=&quot;step-5-jekyll-new-tweaks&quot;&gt;Step 5: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll new&lt;/code&gt; Tweaks&lt;/h2&gt;
+If this is a new site be sure to add the following files to `_data/` and customize as you see fit. There is currently no way of bundling them in with the theme, so be sure to consult the docs on how to properly use both.
 
-&lt;p&gt;If this is a new site be sure to add the following files to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_data/&lt;/code&gt; and customize as you see fit. There is currently no way of bundling them in with the theme, so be sure to consult the docs on how to properly use both.&lt;/p&gt;
+- [`_data/ui-text.yml`](https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml) - UI text [documentation]({{ &quot;/docs/ui-text/&quot; | relative_url }})
+- [`_data/navigation.yml`](https://github.com/mmistakes/minimal-mistakes/blob/master/_data/navigation.yml) - navigation [documentation]({{ &quot;/docs/navigation/&quot; | relative_url }})
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_data/ui-text.yml&lt;/code&gt;&lt;/a&gt; - UI text &lt;a href=&quot;/intro2sd-template/docs/ui-text/&quot;&gt;documentation&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/mmistakes/minimal-mistakes/blob/master/_data/navigation.yml&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_data/navigation.yml&lt;/code&gt;&lt;/a&gt; - navigation &lt;a href=&quot;/intro2sd-template/docs/navigation/&quot;&gt;documentation&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+You&apos;ll also need to: 
 
-&lt;p&gt;You’ll also need to:&lt;/p&gt;
+- Replace `&lt;site root&gt;/index.html` with a modified [Minimal Mistakes `index.html`](https://github.com/mmistakes/minimal-mistakes/blob/master/index.html).
+- Change `layout: post` in `_posts/0000-00-00-welcome-to-jekyll.markdown` to `layout: single`.
+- Remove `about.md`, or at the very least change `layout: page` to `layout: single` and remove references to `icon-github.html` (or [copy to your `_includes`](https://github.com/jekyll/minima/tree/master/_includes) if using).
 
-&lt;ul&gt;
-  &lt;li&gt;Replace &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;site root&amp;gt;/index.html&lt;/code&gt; with a modified &lt;a href=&quot;https://github.com/mmistakes/minimal-mistakes/blob/master/index.html&quot;&gt;Minimal Mistakes &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;index.html&lt;/code&gt;&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;Change &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;layout: post&lt;/code&gt; in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts/0000-00-00-welcome-to-jekyll.markdown&lt;/code&gt; to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;layout: single&lt;/code&gt;.&lt;/li&gt;
-  &lt;li&gt;Remove &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;about.md&lt;/code&gt;, or at the very least change &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;layout: page&lt;/code&gt; to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;layout: single&lt;/code&gt; and remove references to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;icon-github.html&lt;/code&gt; (or &lt;a href=&quot;https://github.com/jekyll/minima/tree/master/_includes&quot;&gt;copy to your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_includes&lt;/code&gt;&lt;/a&gt; if using).&lt;/li&gt;
-&lt;/ul&gt;
+---
 
-&lt;hr /&gt;
+That&apos;s it! If all goes well running `bundle exec jekyll serve` should spin-up your site. If you encounter any bumps please file an issue on GitHub and make sure to indicate you&apos;re testing the pre-release Ruby gem version.
 
-&lt;p&gt;That’s it! If all goes well running &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bundle exec jekyll serve&lt;/code&gt; should spin-up your site. If you encounter any bumps please file an issue on GitHub and make sure to indicate you’re testing the pre-release Ruby gem version.&lt;/p&gt;
+[File an issue](https://github.com/mmistakes/minimal-mistakes/issues/new){: .btn .btn--info .btn--large}
 
-&lt;p&gt;&lt;a href=&quot;https://github.com/mmistakes/minimal-mistakes/issues/new&quot; class=&quot;btn btn--info btn--large&quot;&gt;File an issue&lt;/a&gt;&lt;/p&gt;
+Thanks!</content><author><name>Michael Rose</name></author><category term="Jekyll" /><category term="update" /><summary type="html">Jekyll themes distributed as Ruby gems are finally here to make installing and upgrading much easier. Gone are the days of forking a repo just to “install it”. Or dealing with merge conflicts when pulling in upstream commits to “upgrade it”.</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4444/jekyll/welcome-to-jekyll/" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2016-02-24T00:00:00-05:00</published><updated>2016-02-24T00:00:00-05:00</updated><id>http://localhost:4444/jekyll/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4444/jekyll/welcome-to-jekyll/">You&apos;ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-&lt;p&gt;Thanks!&lt;/p&gt;</content><author><name>Michael Rose</name></author><category term="Jekyll" /><category term="update" /><summary type="html">Jekyll themes distributed as Ruby gems are finally here to make installing and upgrading much easier. Gone are the days of forking a repo just to “install it”. Or dealing with merge conflicts when pulling in upstream commits to “upgrade it”.</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="https://mmistakes.github.io/intro2sd-template/jekyll/welcome-to-jekyll/" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2016-02-24T00:00:00-05:00</published><updated>2016-02-24T00:00:00-05:00</updated><id>https://mmistakes.github.io/intro2sd-template/jekyll/welcome-to-jekyll</id><content type="html" xml:base="https://mmistakes.github.io/intro2sd-template/jekyll/welcome-to-jekyll/">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+Jekyll also offers powerful support for code snippets:
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+```ruby
+def print_hi(name)
+  puts &quot;Hi, #{name}&quot;
+end
+print_hi(&apos;Tom&apos;)
+#=&gt; prints &apos;Hi, Tom&apos; to STDOUT.
+```
 
-&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;Tom&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &apos;Hi, Tom&apos; to STDOUT.&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll&apos;s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name>Michael Rose</name></author><category term="Jekyll" /><category term="update" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry><entry><title type="html">Markup: Syntax Highlighting</title><link href="https://mmistakes.github.io/intro2sd-template/markup-syntax-highlighting/" rel="alternate" type="text/html" title="Markup: Syntax Highlighting" /><published>2013-08-16T00:00:00-04:00</published><updated>2018-01-03T09:45:06-05:00</updated><id>https://mmistakes.github.io/intro2sd-template/markup-syntax-highlighting</id><content type="html" xml:base="https://mmistakes.github.io/intro2sd-template/markup-syntax-highlighting/">&lt;p&gt;Syntax highlighting is a feature that displays source code, in different colors and fonts according to the category of terms. This feature facilitates writing in a structured language such as a programming language or a markup language as both structures and syntax errors are visually distinct. Highlighting does not affect the meaning of the text itself; it is intended only for human readers.&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+[jekyll-docs]: http://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/</content><author><name>Michael Rose</name></author><category term="Jekyll" /><category term="update" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry><entry><title type="html">Markup: Syntax Highlighting</title><link href="http://localhost:4444/markup-syntax-highlighting/" rel="alternate" type="text/html" title="Markup: Syntax Highlighting" /><published>2013-08-16T00:00:00-04:00</published><updated>2018-01-03T09:45:06-05:00</updated><id>http://localhost:4444/markup-syntax-highlighting</id><content type="html" xml:base="http://localhost:4444/markup-syntax-highlighting/">Syntax highlighting is a feature that displays source code, in different colors and fonts according to the category of terms. This feature facilitates writing in a structured language such as a programming language or a markup language as both structures and syntax errors are visually distinct. Highlighting does not affect the meaning of the text itself; it is intended only for human readers.[^1]
 
-&lt;h3 id=&quot;gfm-code-blocks&quot;&gt;GFM Code Blocks&lt;/h3&gt;
+[^1]: &lt;http://en.wikipedia.org/wiki/Syntax_highlighting&gt;
 
-&lt;p&gt;GitHub Flavored Markdown &lt;a href=&quot;https://help.github.com/articles/creating-and-highlighting-code-blocks/&quot;&gt;fenced code blocks&lt;/a&gt; are supported. To modify styling and highlight colors edit &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/_sass/syntax.scss&lt;/code&gt;.&lt;/p&gt;
+### GFM Code Blocks
 
-&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nf&quot;&gt;#container&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;margin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;-240px&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;100%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+GitHub Flavored Markdown [fenced code blocks](https://help.github.com/articles/creating-and-highlighting-code-blocks/) are supported. To modify styling and highlight colors edit `/_sass/syntax.scss`.
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-scss&quot; data-lang=&quot;scss&quot;&gt;&lt;span class=&quot;nc&quot;&gt;.highlight&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;margin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;padding&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1em&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;font-family&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$monospace&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$type-size-7&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;line-height&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;.8&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+```css
+#container {
+  float: left;
+  margin: 0 -240px 0 0;
+  width: 100%;
+}
+```
 
-&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;nav&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;pagination&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;role=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;navigation&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+{% highlight scss %}
+.highlight {
+  margin: 0;
+  padding: 1em;
+  font-family: $monospace;
+  font-size: $type-size-7;
+  line-height: 1.8;
+}
+{% endhighlight %}
+
+```html
+{% raw %}&lt;nav class=&quot;pagination&quot; role=&quot;navigation&quot;&gt;
   {% if page.previous %}
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{ site.url }}{{ page.previous.url }}&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;btn&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;title=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{ page.previous.title }}&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Previous article&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+    &lt;a href=&quot;{{ site.url }}{{ page.previous.url }}&quot; class=&quot;btn&quot; title=&quot;{{ page.previous.title }}&quot;&gt;Previous article&lt;/a&gt;
   {% endif %}
   {% if page.next %}
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{ site.url }}{{ page.next.url }}&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;btn&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;title=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{ page.next.title }}&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Next article&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+    &lt;a href=&quot;{{ site.url }}{{ page.next.url }}&quot; class=&quot;btn&quot; title=&quot;{{ page.next.title }}&quot;&gt;Next article&lt;/a&gt;
   {% endif %}
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/nav&amp;gt;&lt;/span&gt;&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- /.pagination --&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;/nav&gt;&lt;!-- /.pagination --&gt;{% endraw %}
+```
 
-&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;module&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;Jekyll&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;TagIndex&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Page&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;initialize&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;site&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;base&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dir&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tag&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-      &lt;span class=&quot;vi&quot;&gt;@site&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;site&lt;/span&gt;
-      &lt;span class=&quot;vi&quot;&gt;@base&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;base&lt;/span&gt;
-      &lt;span class=&quot;vi&quot;&gt;@dir&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dir&lt;/span&gt;
-      &lt;span class=&quot;vi&quot;&gt;@name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;index.html&apos;&lt;/span&gt;
-      &lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;process&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-      &lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;read_yaml&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;File&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;join&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;base&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;_layouts&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;tag_index.html&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-      &lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;tag&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tag&lt;/span&gt;
-      &lt;span class=&quot;n&quot;&gt;tag_title_prefix&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;site&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;tag_title_prefix&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;Tagged: &apos;&lt;/span&gt;
-      &lt;span class=&quot;n&quot;&gt;tag_title_suffix&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;site&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;tag_title_suffix&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;&amp;amp;#8211;&apos;&lt;/span&gt;
-      &lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;title&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tag_title_prefix&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tag&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-      &lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;description&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;An archive of posts tagged &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tag&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;.&quot;&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+```ruby
+module Jekyll
+  class TagIndex &lt; Page
+    def initialize(site, base, dir, tag)
+      @site = site
+      @base = base
+      @dir = dir
+      @name = &apos;index.html&apos;
+      self.process(@name)
+      self.read_yaml(File.join(base, &apos;_layouts&apos;), &apos;tag_index.html&apos;)
+      self.data[&apos;tag&apos;] = tag
+      tag_title_prefix = site.config[&apos;tag_title_prefix&apos;] || &apos;Tagged: &apos;
+      tag_title_suffix = site.config[&apos;tag_title_suffix&apos;] || &apos;&amp;#8211;&apos;
+      self.data[&apos;title&apos;] = &quot;#{tag_title_prefix}#{tag}&quot;
+      self.data[&apos;description&apos;] = &quot;An archive of posts tagged #{tag}.&quot;
+    end
+  end
+end
+```
 
-&lt;h3 id=&quot;code-blocks-in-lists&quot;&gt;Code Blocks in Lists&lt;/h3&gt;
+### Code Blocks in Lists
 
-&lt;p&gt;Indentation matters. Be sure the indent of the code block aligns with the first non-space character after the list item marker (e.g., &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;1.&lt;/code&gt;). Usually this will mean indenting 3 spaces instead of 4.&lt;/p&gt;
+Indentation matters. Be sure the indent of the code block aligns with the first non-space character after the list item marker (e.g., `1.`). Usually this will mean indenting 3 spaces instead of 4.
 
-&lt;ol&gt;
-  &lt;li&gt;Do step 1.&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Now do this:&lt;/p&gt;
+1. Do step 1.
+2. Now do this:
+   
+   ```ruby
+   def print_hi(name)
+     puts &quot;Hi, #{name}&quot;
+   end
+   print_hi(&apos;Tom&apos;)
+   #=&gt; prints &apos;Hi, Tom&apos; to STDOUT.
+   ```
+        
+3. Now you can do this.
 
-    &lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;Tom&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &apos;Hi, Tom&apos; to STDOUT.&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Now you can do this.&lt;/li&gt;
-&lt;/ol&gt;
+### Jekyll Highlight Tag
 
-&lt;h3 id=&quot;jekyll-highlight-tag&quot;&gt;Jekyll Highlight Tag&lt;/h3&gt;
+An example of a code blocking using Jekyll&apos;s [`{% raw %}{% highlight %}{% endraw %}` tag](https://jekyllrb.com/docs/templates/#code-snippet-highlighting).
 
-&lt;p&gt;An example of a code blocking using Jekyll’s &lt;a href=&quot;https://jekyllrb.com/docs/templates/#code-snippet-highlighting&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{% highlight %}&lt;/code&gt; tag&lt;/a&gt;.&lt;/p&gt;
+{% highlight javascript linenos %}
+// &apos;gulp html&apos; -- does nothing
+// &apos;gulp html --prod&apos; -- minifies and gzips HTML files for production
+gulp.task(&apos;html&apos;, () =&gt; {
+  return gulp.src(paths.siteFolderName + paths.htmlPattern)
+    .pipe(when(argv.prod, htmlmin({
+      removeComments: true,
+      collapseWhitespace: true,
+      collapseBooleanAttributes: false,
+      removeAttributeQuotes: false,
+      removeRedundantAttributes: false,
+      minifyJS: true,
+      minifyCSS: true
+    })))
+    .pipe(when(argv.prod, size({title: &apos;optimized HTML&apos;})))
+    .pipe(when(argv.prod, gulp.dest(paths.siteFolderName)))
+    .pipe(when(argv.prod, gzip({append: true})))
+    .pipe(when(argv.prod, size({
+      title: &apos;gzipped HTML&apos;,
+      gzip: true
+    })))
+    .pipe(when(argv.prod, gulp.dest(paths.siteFolderName)))
+});
+{% endhighlight %}
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;c1&quot;&gt;// &apos;gulp html&apos; -- does nothing&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// &apos;gulp html --prod&apos; -- minifies and gzips HTML files for production&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;gulp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;task&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;html&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;gulp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;paths&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;siteFolderName&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;paths&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;htmlPattern&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;pipe&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;when&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;argv&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;prod&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;htmlmin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;
-      &lt;span class=&quot;na&quot;&gt;removeComments&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-      &lt;span class=&quot;na&quot;&gt;collapseWhitespace&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-      &lt;span class=&quot;na&quot;&gt;collapseBooleanAttributes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-      &lt;span class=&quot;na&quot;&gt;removeAttributeQuotes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-      &lt;span class=&quot;na&quot;&gt;removeRedundantAttributes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-      &lt;span class=&quot;na&quot;&gt;minifyJS&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-      &lt;span class=&quot;na&quot;&gt;minifyCSS&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;})))&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;pipe&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;when&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;argv&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;prod&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;optimized HTML&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;})))&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;pipe&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;when&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;argv&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;prod&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;gulp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;dest&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;paths&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;siteFolderName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)))&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;pipe&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;when&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;argv&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;prod&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;gzip&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;})))&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;pipe&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;when&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;argv&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;prod&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;
-      &lt;span class=&quot;na&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;gzipped HTML&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-      &lt;span class=&quot;na&quot;&gt;gzip&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;})))&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;pipe&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;when&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;argv&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;prod&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;gulp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;dest&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;paths&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;siteFolderName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)))&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+{% highlight wl linenos %}
+Module[{},
+  Sqrt[2]
+  4
+]
+{% endhighlight %}
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-wl&quot; data-lang=&quot;wl&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-2
-3
-4
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;bp&quot;&gt;Module&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[{}&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;Sqrt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+### GitHub Gist Embed
 
-&lt;h3 id=&quot;github-gist-embed&quot;&gt;GitHub Gist Embed&lt;/h3&gt;
+An example of a Gist embed below.
 
-&lt;p&gt;An example of a Gist embed below.&lt;/p&gt;
+&lt;script src=&quot;https://gist.github.com/mmistakes/77c68fbb07731a456805a7b473f47841.js&quot;&gt;&lt;/script&gt;</content><author><name>Michael Rose</name></author><category term="code" /><category term="syntax highlighting" /><summary type="html">Post displaying the various ways of highlighting code in Markdown.</summary></entry><entry><title type="html">Markup: Another Post with Images</title><link href="http://localhost:4444/markup-more-images/" rel="alternate" type="text/html" title="Markup: Another Post with Images" /><published>2013-05-22T00:00:00-04:00</published><updated>2013-05-22T00:00:00-04:00</updated><id>http://localhost:4444/markup-more-images</id><content type="html" xml:base="http://localhost:4444/markup-more-images/">Here are some examples of what a post with images might look like. If you want to display two or three images next to each other responsively use `figure` with the appropriate `class`. Each instance of `figure` is auto-numbered and displayed in the caption.
 
-&lt;script src=&quot;https://gist.github.com/mmistakes/77c68fbb07731a456805a7b473f47841.js&quot;&gt;&lt;/script&gt;
+### Figures (for images or video)
 
-&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Syntax_highlighting&quot;&gt;http://en.wikipedia.org/wiki/Syntax_highlighting&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;</content><author><name>Michael Rose</name></author><category term="code" /><category term="syntax highlighting" /><summary type="html">Post displaying the various ways of highlighting code in Markdown.</summary></entry><entry><title type="html">Markup: Another Post with Images</title><link href="https://mmistakes.github.io/intro2sd-template/markup-more-images/" rel="alternate" type="text/html" title="Markup: Another Post with Images" /><published>2013-05-22T00:00:00-04:00</published><updated>2013-05-22T00:00:00-04:00</updated><id>https://mmistakes.github.io/intro2sd-template/markup-more-images</id><content type="html" xml:base="https://mmistakes.github.io/intro2sd-template/markup-more-images/">&lt;p&gt;Here are some examples of what a post with images might look like. If you want to display two or three images next to each other responsively use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;figure&lt;/code&gt; with the appropriate &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;class&lt;/code&gt;. Each instance of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;figure&lt;/code&gt; is auto-numbered and displayed in the caption.&lt;/p&gt;
-
-&lt;h3 id=&quot;figures-for-images-or-video&quot;&gt;Figures (for images or video)&lt;/h3&gt;
-
-&lt;h4 id=&quot;one-up&quot;&gt;One Up&lt;/h4&gt;
+#### One Up
 
 &lt;figure&gt;
-	&lt;a href=&quot;http://farm9.staticflickr.com/8426/7758832526_cc8f681e48_b.jpg&quot;&gt;&lt;img src=&quot;http://farm9.staticflickr.com/8426/7758832526_cc8f681e48_c.jpg&quot; /&gt;&lt;/a&gt;
+	&lt;a href=&quot;http://farm9.staticflickr.com/8426/7758832526_cc8f681e48_b.jpg&quot;&gt;&lt;img src=&quot;http://farm9.staticflickr.com/8426/7758832526_cc8f681e48_c.jpg&quot;&gt;&lt;/a&gt;
 	&lt;figcaption&gt;&lt;a href=&quot;http://www.flickr.com/photos/80901381@N04/7758832526/&quot; title=&quot;Morning Fog Emerging From Trees by A Guy Taking Pictures, on Flickr&quot;&gt;Morning Fog Emerging From Trees by A Guy Taking Pictures, on Flickr&lt;/a&gt;.&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;Vero laborum commodo occupy. Semiotics voluptate mumblecore pug. Cosby sweater ullamco quinoa ennui assumenda, sapiente occupy delectus lo-fi. Ea fashion axe Marfa cillum aliquip. Retro Bushwick keytar cliche. Before they sold out sustainable gastropub Marfa readymade, ethical Williamsburg skateboard brunch qui consectetur gentrify semiotics. Mustache cillum irony, fingerstache magna pour-over keffiyeh tousled selfies.&lt;/p&gt;
+Vero laborum commodo occupy. Semiotics voluptate mumblecore pug. Cosby sweater ullamco quinoa ennui assumenda, sapiente occupy delectus lo-fi. Ea fashion axe Marfa cillum aliquip. Retro Bushwick keytar cliche. Before they sold out sustainable gastropub Marfa readymade, ethical Williamsburg skateboard brunch qui consectetur gentrify semiotics. Mustache cillum irony, fingerstache magna pour-over keffiyeh tousled selfies.
 
-&lt;h4 id=&quot;two-up&quot;&gt;Two Up&lt;/h4&gt;
+#### Two Up
 
-&lt;p&gt;Apply the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;half&lt;/code&gt; class like so to display two images side by side that share the same caption.&lt;/p&gt;
+Apply the `half` class like so to display two images side by side that share the same caption.
 
-&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;figure&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;half&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/assets/images/image-filename-1-large.jpg&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/assets/images/image-filename-1.jpg&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/assets/images/image-filename-2-large.jpg&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/assets/images/image-filename-2.jpg&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;figcaption&amp;gt;&lt;/span&gt;Caption describing these two images.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/figcaption&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/figure&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+```html
+&lt;figure class=&quot;half&quot;&gt;
+    &lt;a href=&quot;/assets/images/image-filename-1-large.jpg&quot;&gt;&lt;img src=&quot;/assets/images/image-filename-1.jpg&quot;&gt;&lt;/a&gt;
+    &lt;a href=&quot;/assets/images/image-filename-2-large.jpg&quot;&gt;&lt;img src=&quot;/assets/images/image-filename-2.jpg&quot;&gt;&lt;/a&gt;
+    &lt;figcaption&gt;Caption describing these two images.&lt;/figcaption&gt;
+&lt;/figure&gt;
+```
 
-&lt;p&gt;And you’ll get something that looks like this:&lt;/p&gt;
+And you&apos;ll get something that looks like this:
 
 &lt;figure class=&quot;half&quot;&gt;
-	&lt;a href=&quot;http://placehold.it/1200x600.JPG&quot;&gt;&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; /&gt;&lt;/a&gt;
-	&lt;a href=&quot;http://placehold.it/1200x600.jpeg&quot;&gt;&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; /&gt;&lt;/a&gt;
+	&lt;a href=&quot;http://placehold.it/1200x600.JPG&quot;&gt;&lt;img src=&quot;http://placehold.it/600x300.jpg&quot;&gt;&lt;/a&gt;
+	&lt;a href=&quot;http://placehold.it/1200x600.jpeg&quot;&gt;&lt;img src=&quot;http://placehold.it/600x300.jpg&quot;&gt;&lt;/a&gt;
 	&lt;figcaption&gt;Two images.&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;h4 id=&quot;three-up&quot;&gt;Three Up&lt;/h4&gt;
+#### Three Up
 
-&lt;p&gt;Apply the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;third&lt;/code&gt; class like so to display three images side by side that share the same caption.&lt;/p&gt;
+Apply the `third` class like so to display three images side by side that share the same caption.
 
-&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;figure&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;third&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-	&lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/images/image-filename-1.jpg&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-	&lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/images/image-filename-2.jpg&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-	&lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/images/image-filename-3.jpg&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-	&lt;span class=&quot;nt&quot;&gt;&amp;lt;figcaption&amp;gt;&lt;/span&gt;Caption describing these three images.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/figcaption&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/figure&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+```html
+&lt;figure class=&quot;third&quot;&gt;
+	&lt;img src=&quot;/images/image-filename-1.jpg&quot;&gt;
+	&lt;img src=&quot;/images/image-filename-2.jpg&quot;&gt;
+	&lt;img src=&quot;/images/image-filename-3.jpg&quot;&gt;
+	&lt;figcaption&gt;Caption describing these three images.&lt;/figcaption&gt;
+&lt;/figure&gt;
+```
 
-&lt;p&gt;And you’ll get something that looks like this:&lt;/p&gt;
+And you&apos;ll get something that looks like this:
 
 &lt;figure class=&quot;third&quot;&gt;
-	&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; /&gt;
-	&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; /&gt;
-	&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; /&gt;
+	&lt;img src=&quot;http://placehold.it/600x300.jpg&quot;&gt;
+	&lt;img src=&quot;http://placehold.it/600x300.jpg&quot;&gt;
+	&lt;img src=&quot;http://placehold.it/600x300.jpg&quot;&gt;
 	&lt;figcaption&gt;Three images.&lt;/figcaption&gt;
-&lt;/figure&gt;</content><author><name>Michael Rose</name></author><category term="sample post" /><category term="images" /><category term="test" /><summary type="html">Examples and code for displaying images in posts.</summary></entry><entry><title type="html">Markup: HTML Tags and Formatting</title><link href="https://mmistakes.github.io/intro2sd-template/markup/markup-html-tags-and-formatting/" rel="alternate" type="text/html" title="Markup: HTML Tags and Formatting" /><published>2013-01-11T00:00:00-05:00</published><updated>2013-01-11T00:00:00-05:00</updated><id>https://mmistakes.github.io/intro2sd-template/markup/markup-html-tags-and-formatting</id><content type="html" xml:base="https://mmistakes.github.io/intro2sd-template/markup/markup-html-tags-and-formatting/">&lt;p&gt;A variety of common markup showing how the theme styles them.&lt;/p&gt;
+&lt;/figure&gt;</content><author><name>Michael Rose</name></author><category term="sample post" /><category term="images" /><category term="test" /><summary type="html">Examples and code for displaying images in posts.</summary></entry><entry><title type="html">Markup: HTML Tags and Formatting</title><link href="http://localhost:4444/markup/markup-html-tags-and-formatting/" rel="alternate" type="text/html" title="Markup: HTML Tags and Formatting" /><published>2013-01-11T00:00:00-05:00</published><updated>2013-01-11T00:00:00-05:00</updated><id>http://localhost:4444/markup/markup-html-tags-and-formatting</id><content type="html" xml:base="http://localhost:4444/markup/markup-html-tags-and-formatting/">A variety of common markup showing how the theme styles them.
 
-&lt;h2 id=&quot;header-two&quot;&gt;Header two&lt;/h2&gt;
+## Header two
 
-&lt;h3 id=&quot;header-three&quot;&gt;Header three&lt;/h3&gt;
+### Header three
 
-&lt;h4 id=&quot;header-four&quot;&gt;Header four&lt;/h4&gt;
+#### Header four
 
-&lt;h5 id=&quot;header-five&quot;&gt;Header five&lt;/h5&gt;
+##### Header five
 
-&lt;h6 id=&quot;header-six&quot;&gt;Header six&lt;/h6&gt;
+###### Header six
 
-&lt;h2 id=&quot;blockquotes&quot;&gt;Blockquotes&lt;/h2&gt;
+## Blockquotes
 
-&lt;p&gt;Single line blockquote:&lt;/p&gt;
+Single line blockquote:
 
-&lt;blockquote&gt;
-  &lt;p&gt;Stay hungry. Stay foolish.&lt;/p&gt;
-&lt;/blockquote&gt;
+&gt; Stay hungry. Stay foolish.
 
-&lt;p&gt;Multi line blockquote with a cite reference:&lt;/p&gt;
+Multi line blockquote with a cite reference:
 
-&lt;blockquote&gt;
-  &lt;p&gt;People think focus means saying yes to the thing you’ve got to focus on. But that’s not what it means at all. It means saying no to the hundred other good ideas that there are. You have to pick carefully. I’m actually as proud of the things we haven’t done as the things I have done. Innovation is saying no to 1,000 things.&lt;/p&gt;
-&lt;/blockquote&gt;
+&gt; People think focus means saying yes to the thing you&apos;ve got to focus on. But that&apos;s not what it means at all. It means saying no to the hundred other good ideas that there are. You have to pick carefully. I&apos;m actually as proud of the things we haven&apos;t done as the things I have done. Innovation is saying no to 1,000 things.
 
-&lt;p class=&quot;small&quot;&gt;&lt;cite&gt;Steve Jobs&lt;/cite&gt; — Apple Worldwide Developers’ Conference, 1997&lt;/p&gt;
+&lt;cite&gt;Steve Jobs&lt;/cite&gt; --- Apple Worldwide Developers&apos; Conference, 1997
+{: .small}
 
-&lt;h2 id=&quot;tables&quot;&gt;Tables&lt;/h2&gt;
+## Tables
 
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Employee&lt;/th&gt;
-      &lt;th&gt;Salary&lt;/th&gt;
-      &lt;th&gt; &lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;a href=&quot;#&quot;&gt;John Doe&lt;/a&gt;&lt;/td&gt;
-      &lt;td&gt;$1&lt;/td&gt;
-      &lt;td&gt;Because that’s all Steve Jobs needed for a salary.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;a href=&quot;#&quot;&gt;Jane Doe&lt;/a&gt;&lt;/td&gt;
-      &lt;td&gt;$100K&lt;/td&gt;
-      &lt;td&gt;For all the blogging she does.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;a href=&quot;#&quot;&gt;Fred Bloggs&lt;/a&gt;&lt;/td&gt;
-      &lt;td&gt;$100M&lt;/td&gt;
-      &lt;td&gt;Pictures are worth a thousand words, right? So Jane × 1,000.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;a href=&quot;#&quot;&gt;Jane Bloggs&lt;/a&gt;&lt;/td&gt;
-      &lt;td&gt;$100B&lt;/td&gt;
-      &lt;td&gt;With hair like that?! Enough said.&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+| Employee         | Salary |                                                              |
+| --------         | ------ | ------------------------------------------------------------ |
+| [John Doe](#)    | $1     | Because that&apos;s all Steve Jobs needed for a salary.           |
+| [Jane Doe](#)    | $100K  | For all the blogging she does.                               |
+| [Fred Bloggs](#) | $100M  | Pictures are worth a thousand words, right? So Jane × 1,000. |
+| [Jane Bloggs](#) | $100B  | With hair like that?! Enough said.                           |
 
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;Header1&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;Header2&lt;/th&gt;
-      &lt;th style=&quot;text-align: right&quot;&gt;Header3&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;cell1&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;cell2&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;cell3&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;cell4&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;cell5&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;cell6&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;cell1&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;cell2&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;cell3&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;cell4&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;cell5&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;cell6&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-  &lt;tfoot&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Foot1&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Foot2&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;Foot3&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tfoot&gt;
-&lt;/table&gt;
+| Header1 | Header2 | Header3 |
+|:--------|:-------:|--------:|
+| cell1   | cell2   | cell3   |
+| cell4   | cell5   | cell6   |
+|-----------------------------|
+| cell1   | cell2   | cell3   |
+| cell4   | cell5   | cell6   |
+|=============================|
+| Foot1   | Foot2   | Foot3   |
 
-&lt;h2 id=&quot;definition-lists&quot;&gt;Definition Lists&lt;/h2&gt;
+## Definition Lists
 
-&lt;dl&gt;
-  &lt;dt&gt;Definition List Title&lt;/dt&gt;
-  &lt;dd&gt;Definition list division.&lt;/dd&gt;
-  &lt;dt&gt;Startup&lt;/dt&gt;
-  &lt;dd&gt;A startup company or startup is a company or temporary organization designed to search for a repeatable and scalable business model.&lt;/dd&gt;
-  &lt;dt&gt;#dowork&lt;/dt&gt;
-  &lt;dd&gt;Coined by Rob Dyrdek and his personal body guard Christopher “Big Black” Boykins, “Do Work” works as a self motivator, to motivating your friends.&lt;/dd&gt;
-  &lt;dt&gt;Do It Live&lt;/dt&gt;
-  &lt;dd&gt;I’ll let Bill O’Reilly &lt;a href=&quot;https://www.youtube.com/watch?v=O_HyZ5aW76c&quot; title=&quot;We&apos;ll Do It Live&quot;&gt;explain&lt;/a&gt; this one.&lt;/dd&gt;
-&lt;/dl&gt;
+Definition List Title
+:   Definition list division.
 
-&lt;h2 id=&quot;unordered-lists-nested&quot;&gt;Unordered Lists (Nested)&lt;/h2&gt;
+Startup
+:   A startup company or startup is a company or temporary organization designed to search for a repeatable and scalable business model.
 
-&lt;ul&gt;
-  &lt;li&gt;List item one
-    &lt;ul&gt;
-      &lt;li&gt;List item one
-        &lt;ul&gt;
-          &lt;li&gt;List item one&lt;/li&gt;
-          &lt;li&gt;List item two&lt;/li&gt;
-          &lt;li&gt;List item three&lt;/li&gt;
-          &lt;li&gt;List item four&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;List item two&lt;/li&gt;
-      &lt;li&gt;List item three&lt;/li&gt;
-      &lt;li&gt;List item four&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;List item two&lt;/li&gt;
-  &lt;li&gt;List item three&lt;/li&gt;
-  &lt;li&gt;List item four&lt;/li&gt;
-&lt;/ul&gt;
+#dowork
+:   Coined by Rob Dyrdek and his personal body guard Christopher &quot;Big Black&quot; Boykins, &quot;Do Work&quot; works as a self motivator, to motivating your friends.
 
-&lt;h2 id=&quot;ordered-list-nested&quot;&gt;Ordered List (Nested)&lt;/h2&gt;
+Do It Live
+:   I&apos;ll let Bill O&apos;Reilly [explain](https://www.youtube.com/watch?v=O_HyZ5aW76c &quot;We&apos;ll Do It Live&quot;) this one.
 
-&lt;ol&gt;
-  &lt;li&gt;List item one
-    &lt;ol&gt;
-      &lt;li&gt;List item one
-        &lt;ol&gt;
-          &lt;li&gt;List item one&lt;/li&gt;
-          &lt;li&gt;List item two&lt;/li&gt;
-          &lt;li&gt;List item three&lt;/li&gt;
-          &lt;li&gt;List item four&lt;/li&gt;
-        &lt;/ol&gt;
-      &lt;/li&gt;
-      &lt;li&gt;List item two&lt;/li&gt;
-      &lt;li&gt;List item three&lt;/li&gt;
-      &lt;li&gt;List item four&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;List item two&lt;/li&gt;
-  &lt;li&gt;List item three&lt;/li&gt;
-  &lt;li&gt;List item four&lt;/li&gt;
-&lt;/ol&gt;
+## Unordered Lists (Nested)
 
-&lt;h2 id=&quot;forms&quot;&gt;Forms&lt;/h2&gt;
+  * List item one 
+      * List item one 
+          * List item one
+          * List item two
+          * List item three
+          * List item four
+      * List item two
+      * List item three
+      * List item four
+  * List item two
+  * List item three
+  * List item four
+
+## Ordered List (Nested)
+
+  1. List item one 
+      1. List item one 
+          1. List item one
+          2. List item two
+          3. List item three
+          4. List item four
+      2. List item two
+      3. List item three
+      4. List item four
+  2. List item two
+  3. List item three
+  4. List item four
+
+## Forms
 
 &lt;form&gt;
   &lt;fieldset&gt;
     &lt;legend&gt;Personalia:&lt;/legend&gt;
-    Name: &lt;input type=&quot;text&quot; size=&quot;30&quot; /&gt;&lt;br /&gt;
-    Email: &lt;input type=&quot;text&quot; size=&quot;30&quot; /&gt;&lt;br /&gt;
-    Date of birth: &lt;input type=&quot;text&quot; size=&quot;10&quot; /&gt;
+    Name: &lt;input type=&quot;text&quot; size=&quot;30&quot;&gt;&lt;br&gt;
+    Email: &lt;input type=&quot;text&quot; size=&quot;30&quot;&gt;&lt;br&gt;
+    Date of birth: &lt;input type=&quot;text&quot; size=&quot;10&quot;&gt;
   &lt;/fieldset&gt;
 &lt;/form&gt;
 
-&lt;h2 id=&quot;buttons&quot;&gt;Buttons&lt;/h2&gt;
+## Buttons
 
-&lt;p&gt;Make any link standout more when applying the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.btn&lt;/code&gt; class.&lt;/p&gt;
+Make any link standout more when applying the `.btn` class.
 
-&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;#&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;btn--success&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Success Button&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+```html
+&lt;a href=&quot;#&quot; class=&quot;btn--success&quot;&gt;Success Button&lt;/a&gt;
+```
 
-&lt;p&gt;&lt;a href=&quot;#&quot; class=&quot;btn&quot;&gt;Default Button&lt;/a&gt;
-&lt;a href=&quot;#&quot; class=&quot;btn btn--primary&quot;&gt;Primary Button&lt;/a&gt;
-&lt;a href=&quot;#&quot; class=&quot;btn btn--success&quot;&gt;Success Button&lt;/a&gt;
-&lt;a href=&quot;#&quot; class=&quot;btn btn--warning&quot;&gt;Warning Button&lt;/a&gt;
-&lt;a href=&quot;#&quot; class=&quot;btn btn--danger&quot;&gt;Danger Button&lt;/a&gt;
-&lt;a href=&quot;#&quot; class=&quot;btn btn--info&quot;&gt;Info Button&lt;/a&gt;
-&lt;a href=&quot;#&quot; class=&quot;btn btn--inverse&quot;&gt;Inverse Button&lt;/a&gt;
-&lt;a href=&quot;#&quot; class=&quot;btn btn--light-outline&quot;&gt;Light Outline Button&lt;/a&gt;&lt;/p&gt;
+[Default Button](#){: .btn}
+[Primary Button](#){: .btn .btn--primary}
+[Success Button](#){: .btn .btn--success}
+[Warning Button](#){: .btn .btn--warning}
+[Danger Button](#){: .btn .btn--danger}
+[Info Button](#){: .btn .btn--info}
+[Inverse Button](#){: .btn .btn--inverse}
+[Light Outline Button](#){: .btn .btn--light-outline}
 
-&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Default Button Text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;#link&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;{: .btn}
-&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Primary Button Text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;#link&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;{: .btn .btn--primary}
-&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Success Button Text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;#link&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;{: .btn .btn--success}
-&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Warning Button Text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;#link&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;{: .btn .btn--warning}
-&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Danger Button Text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;#link&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;{: .btn .btn--danger}
-&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Info Button Text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;#link&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;{: .btn .btn--info}
-&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Inverse Button&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;#link&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;{: .btn .btn--inverse}
-&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Light Outline Button&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;#link&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;{: .btn .btn--light-outline}
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+```markdown
+[Default Button Text](#link){: .btn}
+[Primary Button Text](#link){: .btn .btn--primary}
+[Success Button Text](#link){: .btn .btn--success}
+[Warning Button Text](#link){: .btn .btn--warning}
+[Danger Button Text](#link){: .btn .btn--danger}
+[Info Button Text](#link){: .btn .btn--info}
+[Inverse Button](#link){: .btn .btn--inverse}
+[Light Outline Button](#link){: .btn .btn--light-outline}
+```
 
-&lt;p&gt;&lt;a href=&quot;#&quot; class=&quot;btn btn--primary btn--x-large&quot;&gt;X-Large Button&lt;/a&gt;
-&lt;a href=&quot;#&quot; class=&quot;btn btn--primary btn--large&quot;&gt;Large Button&lt;/a&gt;
-&lt;a href=&quot;#&quot; class=&quot;btn btn--primary&quot;&gt;Default Button&lt;/a&gt;
-&lt;a href=&quot;#&quot; class=&quot;btn btn--primary btn--small&quot;&gt;Small Button&lt;/a&gt;&lt;/p&gt;
+[X-Large Button](#){: .btn .btn--primary .btn--x-large}
+[Large Button](#){: .btn .btn--primary .btn--large}
+[Default Button](#){: .btn .btn--primary }
+[Small Button](#){: .btn .btn--primary .btn--small}
 
-&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;X-Large Button&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;#link&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;{: .btn .btn--primary .btn--x-large}
-&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Large Button&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;#link&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;{: .btn .btn--primary .btn--large}
-&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Default Button&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;#link&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;{: .btn .btn--primary }
-&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Small Button&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;#link&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;{: .btn .btn--primary .btn--small}
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+```markdown
+[X-Large Button](#link){: .btn .btn--primary .btn--x-large}
+[Large Button](#link){: .btn .btn--primary .btn--large}
+[Default Button](#link){: .btn .btn--primary }
+[Small Button](#link){: .btn .btn--primary .btn--small}
+```
 
-&lt;h2 id=&quot;notices&quot;&gt;Notices&lt;/h2&gt;
+## Notices
 
-&lt;p class=&quot;notice&quot;&gt;&lt;strong&gt;Watch out!&lt;/strong&gt; This paragraph of text has been &lt;a href=&quot;#&quot;&gt;emphasized&lt;/a&gt; with the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{: .notice}&lt;/code&gt; class.&lt;/p&gt;
+**Watch out!** This paragraph of text has been [emphasized](#) with the `{: .notice}` class.
+{: .notice}
 
-&lt;p class=&quot;notice--primary&quot;&gt;&lt;strong&gt;Watch out!&lt;/strong&gt; This paragraph of text has been &lt;a href=&quot;#&quot;&gt;emphasized&lt;/a&gt; with the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{: .notice--primary}&lt;/code&gt; class.&lt;/p&gt;
+**Watch out!** This paragraph of text has been [emphasized](#) with the `{: .notice--primary}` class.
+{: .notice--primary}
 
-&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;Watch out!&lt;/strong&gt; This paragraph of text has been &lt;a href=&quot;#&quot;&gt;emphasized&lt;/a&gt; with the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{: .notice--info}&lt;/code&gt; class.&lt;/p&gt;
+**Watch out!** This paragraph of text has been [emphasized](#) with the `{: .notice--info}` class.
+{: .notice--info}
 
-&lt;p class=&quot;notice--warning&quot;&gt;&lt;strong&gt;Watch out!&lt;/strong&gt; This paragraph of text has been &lt;a href=&quot;#&quot;&gt;emphasized&lt;/a&gt; with the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{: .notice--warning}&lt;/code&gt; class.&lt;/p&gt;
+**Watch out!** This paragraph of text has been [emphasized](#) with the `{: .notice--warning}` class.
+{: .notice--warning}
 
-&lt;p class=&quot;notice--success&quot;&gt;&lt;strong&gt;Watch out!&lt;/strong&gt; This paragraph of text has been &lt;a href=&quot;#&quot;&gt;emphasized&lt;/a&gt; with the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{: .notice--success}&lt;/code&gt; class.&lt;/p&gt;
+**Watch out!** This paragraph of text has been [emphasized](#) with the `{: .notice--success}` class.
+{: .notice--success}
 
-&lt;p class=&quot;notice--danger&quot;&gt;&lt;strong&gt;Watch out!&lt;/strong&gt; This paragraph of text has been &lt;a href=&quot;#&quot;&gt;emphasized&lt;/a&gt; with the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{: .notice--danger}&lt;/code&gt; class.&lt;/p&gt;
+**Watch out!** This paragraph of text has been [emphasized](#) with the `{: .notice--danger}` class.
+{: .notice--danger}
 
-&lt;h2 id=&quot;html-tags&quot;&gt;HTML Tags&lt;/h2&gt;
+## HTML Tags
 
-&lt;h3 id=&quot;address-tag&quot;&gt;Address Tag&lt;/h3&gt;
+### Address Tag
 
 &lt;address&gt;
   1 Infinite Loop&lt;br /&gt; Cupertino, CA 95014&lt;br /&gt; United States
 &lt;/address&gt;
 
-&lt;h3 id=&quot;anchor-tag-aka-link&quot;&gt;Anchor Tag (aka. Link)&lt;/h3&gt;
+### Anchor Tag (aka. Link)
 
-&lt;p&gt;This is an example of a &lt;a href=&quot;http://apple.com&quot; title=&quot;Apple&quot;&gt;link&lt;/a&gt;.&lt;/p&gt;
+This is an example of a [link](http://apple.com &quot;Apple&quot;).
 
-&lt;h3 id=&quot;abbreviation-tag&quot;&gt;Abbreviation Tag&lt;/h3&gt;
+### Abbreviation Tag
 
-&lt;p&gt;The abbreviation &lt;abbr title=&quot;Cascading Style Sheets&quot;&gt;CSS&lt;/abbr&gt; stands for “Cascading Style Sheets”.&lt;/p&gt;
+The abbreviation CSS stands for &quot;Cascading Style Sheets&quot;.
 
-&lt;h3 id=&quot;cite-tag&quot;&gt;Cite Tag&lt;/h3&gt;
+*[CSS]: Cascading Style Sheets
 
-&lt;p&gt;“Code is poetry.” —&lt;cite&gt;Automattic&lt;/cite&gt;&lt;/p&gt;
+### Cite Tag
 
-&lt;h3 id=&quot;code-tag&quot;&gt;Code Tag&lt;/h3&gt;
+&quot;Code is poetry.&quot; ---&lt;cite&gt;Automattic&lt;/cite&gt;
 
-&lt;p&gt;You will learn later on in these tests that &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;word-wrap: break-word;&lt;/code&gt; will be your best friend.&lt;/p&gt;
+### Code Tag
 
-&lt;h3 id=&quot;strike-tag&quot;&gt;Strike Tag&lt;/h3&gt;
+You will learn later on in these tests that `word-wrap: break-word;` will be your best friend.
 
-&lt;p&gt;This tag will let you &lt;strike&gt;strikeout text&lt;/strike&gt;.&lt;/p&gt;
+### Strike Tag
 
-&lt;h3 id=&quot;emphasize-tag&quot;&gt;Emphasize Tag&lt;/h3&gt;
+This tag will let you &lt;strike&gt;strikeout text&lt;/strike&gt;.
 
-&lt;p&gt;The emphasize tag should &lt;em&gt;italicize&lt;/em&gt; text.&lt;/p&gt;
+### Emphasize Tag
 
-&lt;h3 id=&quot;insert-tag&quot;&gt;Insert Tag&lt;/h3&gt;
+The emphasize tag should _italicize_ text.
 
-&lt;p&gt;This tag should denote &lt;ins&gt;inserted&lt;/ins&gt; text.&lt;/p&gt;
+### Insert Tag
 
-&lt;h3 id=&quot;keyboard-tag&quot;&gt;Keyboard Tag&lt;/h3&gt;
+This tag should denote &lt;ins&gt;inserted&lt;/ins&gt; text.
 
-&lt;p&gt;This scarcely known tag emulates &lt;kbd&gt;keyboard text&lt;/kbd&gt;, which is usually styled like the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;code&amp;gt;&lt;/code&gt; tag.&lt;/p&gt;
+### Keyboard Tag
 
-&lt;h3 id=&quot;preformatted-tag&quot;&gt;Preformatted Tag&lt;/h3&gt;
+This scarcely known tag emulates &lt;kbd&gt;keyboard text&lt;/kbd&gt;, which is usually styled like the `&lt;code&gt;` tag.
 
-&lt;p&gt;This tag styles large blocks of code.&lt;/p&gt;
+### Preformatted Tag
+
+This tag styles large blocks of code.
 
 &lt;pre&gt;
 .post-title {
@@ -724,22 +615,22 @@ Ahmed, Tahir, et al. Developing Information Systems : Practical guidance for IT 
 }
 &lt;/pre&gt;
 
-&lt;h3 id=&quot;quote-tag&quot;&gt;Quote Tag&lt;/h3&gt;
+### Quote Tag
 
-&lt;p&gt;&lt;q&gt;Developers, developers, developers…&lt;/q&gt; –Steve Ballmer&lt;/p&gt;
+&lt;q&gt;Developers, developers, developers&amp;#8230;&lt;/q&gt; &amp;#8211;Steve Ballmer
 
-&lt;h3 id=&quot;strong-tag&quot;&gt;Strong Tag&lt;/h3&gt;
+### Strong Tag
 
-&lt;p&gt;This tag shows &lt;strong&gt;bold text&lt;/strong&gt;.&lt;/p&gt;
+This tag shows **bold text**.
 
-&lt;h3 id=&quot;subscript-tag&quot;&gt;Subscript Tag&lt;/h3&gt;
+### Subscript Tag
 
-&lt;p&gt;Getting our science styling on with H&lt;sub&gt;2&lt;/sub&gt;O, which should push the “2” down.&lt;/p&gt;
+Getting our science styling on with H&lt;sub&gt;2&lt;/sub&gt;O, which should push the &quot;2&quot; down.
 
-&lt;h3 id=&quot;superscript-tag&quot;&gt;Superscript Tag&lt;/h3&gt;
+### Superscript Tag
 
-&lt;p&gt;Still sticking with science and Albert Einstein’s E = MC&lt;sup&gt;2&lt;/sup&gt;, which should lift the 2 up.&lt;/p&gt;
+Still sticking with science and Albert Einstein&apos;s E = MC&lt;sup&gt;2&lt;/sup&gt;, which should lift the 2 up.
 
-&lt;h3 id=&quot;variable-tag&quot;&gt;Variable Tag&lt;/h3&gt;
+### Variable Tag
 
-&lt;p&gt;This allows you to denote &lt;var&gt;variables&lt;/var&gt;.&lt;/p&gt;</content><author><name>Michael Rose</name></author><category term="Markup" /><category term="content" /><category term="css" /><category term="formatting" /><category term="html" /><category term="markup" /><summary type="html">A variety of common markup showing how the theme styles them.</summary></entry></feed>
+This allows you to denote &lt;var&gt;variables&lt;/var&gt;.</content><author><name>Michael Rose</name></author><category term="Markup" /><category term="content" /><category term="css" /><category term="formatting" /><category term="html" /><category term="markup" /><summary type="html">A variety of common markup showing how the theme styles them.</summary></entry></feed>
